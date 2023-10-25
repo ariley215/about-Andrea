@@ -1,53 +1,124 @@
-'use strict'
+'use strict';
 
-// function askYesNoQuestion(question, correctAnswer) {
-//   const userInput = prompt(question).toLowerCase(); // Normalize user input to lowercase
-//   if (userInput === 'y' || userInput === 'yes') {
-//     if (correctAnswer === 'yes') {
-//       alert('Correct! You answered "Yes" or "Y".');
-//     } else {
-//       alert('Incorrect. The correct answer was "No".');
-//     }
-//   } else if (userInput === 'n' || userInput === 'no') {
-//     if (correctAnswer === 'no') {
-//       alert('Correct! You answered "No" or "N".');
-//     } else {
-//       alert('Incorrect. The correct answer was "Yes".');
-//     }
-//   } else {
-//     alert('Invalid input. Please answer with "Yes" or "No" (case-insensitive).');
-//   }
-// }
+function nameIs(){
+  const usersName = prompt('Who are you?');
 
-// askYesNoQuestion('Is the sky blue?', 'yes');
-// askYesNoQuestion('Is water wet?', 'no');
-// askYesNoQuestion('Are you human?', 'yes');
-// askYesNoQuestion('Is JavaScript a programming language?', 'yes');
-// askYesNoQuestion('Can a duck swim?', 'yes');
+  return usersName;
+}
+
+let HiIAm = nameIs();
+console.log('HiIAm');
+
+function greeting(){
+  document.write('Welcome ' + HiIAm + ' stay and hang out for a while.');
+}
 
 
-
-
-// let usersName = prompt('Hi! What is your name?')
-// console.log(usersName);
-
-// let MyNameIs = (usersName);
-
-// console.log(MyNameIs);
-
-
-function FirstYoN() {
+function firstYoN() {
   let vacay = prompt('Do you like vacations?');
-  vacay = vacay.toLowercase();
+  vacay = vacay.toLowerCase();
   console.log(vacay);
 
-
-  if (vacay == "yes") {
-    console.log(vacay);
-  }   else if (vacay == "no") {
-    console.log(vacay);
-  }    else {
-    console.log(vacay);
+  if (vacay === 'yes') {
+    alert('They are the best!');
+  //   console.log(vacay);
+  }
+  else if (vacay === 'no') {
+    alert('Why not?');
+    // console.log(vacay);
+  }
+  else {
+    alert ('Sounds like you need one');
+    // console.log(vacay);
 
   }
 }
+firstYoN();
+
+
+function firstYoN() {
+  let vacay = prompt('Do you like vacations?');
+  vacay = vacay.toLowerCase();
+  console.log(vacay);
+
+  if (vacay === 'yes') {
+    alert('They are the best!');
+  //   console.log(vacay);
+  }
+  else if (vacay === 'no') {
+    alert('Why not?');
+    // console.log(vacay);
+  }
+  else {
+    alert ('Sounds like you need one');
+    // console.log(vacay);
+
+  }
+}
+firstYoN();
+
+
+function firstYoN() {
+  let vacay = prompt('Do you like vacations?');
+  vacay = vacay.toLowerCase();
+  console.log(vacay);
+
+  if (vacay === 'yes') {
+    alert('They are the best!');
+  //   console.log(vacay);
+  }
+  else if (vacay === 'no') {
+    alert('Why not?');
+    // console.log(vacay);
+  }
+  else {
+    alert ('Sounds like you need one');
+    // console.log(vacay);
+
+  }
+}
+firstYoN();
+
+
+function firstYoN() {
+  let vacay = prompt('Do you like vacations?');
+  vacay = vacay.toLowerCase();
+  console.log(vacay);
+
+  if (vacay === 'yes') {
+    alert('They are the best!');
+  //   console.log(vacay);
+  }
+  else if (vacay === 'no') {
+    alert('Why not?');
+    // console.log(vacay);
+  }
+  else {
+    alert ('Sounds like you need one');
+    // console.log(vacay);
+
+  }
+}
+firstYoN();
+
+
+function firstYoN() {
+  let vacay = prompt('Do you like vacations?');
+  vacay = vacay.toLowerCase();
+  console.log(vacay);
+
+  if (vacay === 'yes') {
+    alert('They are the best!');
+  //   console.log(vacay);
+  }
+  else if (vacay === 'no') {
+    alert('Why not?');
+    // console.log(vacay);
+  }
+  else {
+    alert ('Sounds like you need one');
+    // console.log(vacay);
+
+  }
+}
+firstYoN();
