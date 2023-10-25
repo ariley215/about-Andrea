@@ -9,7 +9,7 @@ function nameIs(){
 let HiIAm = nameIs();
 console.log('HiIAm');
 
-function greeting(){
+function greeting() {
   document.write('Welcome ' + HiIAm + ' stay and hang out for a while.');
 }
 
@@ -36,89 +36,89 @@ function firstYoN() {
 firstYoN();
 
 
-function firstYoN() {
-  let vacay = prompt('Do you like vacations?');
-  vacay = vacay.toLowerCase();
-  console.log(vacay);
+function secondYoN() {
+  let color = prompt('Do you like the color orange?');
+  color = color.toLowerCase();
+  console.log(color);
 
-  if (vacay === 'yes') {
-    alert('They are the best!');
-  //   console.log(vacay);
+  if (color === 'yes') {
+    alert('Its my favorite!');
+  //   console.log(color);
   }
-  else if (vacay === 'no') {
-    alert('Why not?');
-    // console.log(vacay);
+  else if (color === 'no') {
+    alert('You probably like blue');
+    // console.log(color);
   }
   else {
-    alert ('Sounds like you need one');
-    // console.log(vacay);
+    alert ('I like that one too');
+    // console.log(color);
 
   }
 }
-firstYoN();
+secondYoN();
 
 
-function firstYoN() {
-  let vacay = prompt('Do you like vacations?');
-  vacay = vacay.toLowerCase();
-  console.log(vacay);
+function thirdYoN() {
+  let water = prompt('Is water wet?');
+  water = water.toLowerCase();
+  console.log(water);
 
-  if (vacay === 'yes') {
-    alert('They are the best!');
-  //   console.log(vacay);
+  if (water === 'yes') {
+    alert('Glad you are paying attention');
+  //   console.log(water);
   }
-  else if (vacay === 'no') {
-    alert('Why not?');
-    // console.log(vacay);
+  else if (water === 'no') {
+    alert('hmmmm... not so sure about that one.');
+    // console.log(water);
   }
   else {
-    alert ('Sounds like you need one');
-    // console.log(vacay);
+    alert ('You must be thinking of something else');
+    // console.log(water);
 
   }
 }
-firstYoN();
+thirdYoN();
 
 
-function firstYoN() {
-  let vacay = prompt('Do you like vacations?');
-  vacay = vacay.toLowerCase();
-  console.log(vacay);
+function fourthYoN() {
+  let poisonIvy = prompt('Have you ever gotten poison ivy?');
+  poisonIvy = poisonIvy.toLowerCase();
+  console.log(poisonIv);
 
-  if (vacay === 'yes') {
-    alert('They are the best!');
-  //   console.log(vacay);
+  if (poisonIvy === 'yes') {
+    alert('That must have sucked!');
+  //   console.log(poisonIvy);
   }
-  else if (vacay === 'no') {
-    alert('Why not?');
-    // console.log(vacay);
+  else if (poisonIvy === 'no') {
+    alert('Same, we are so lucky');
+    // console.log(poisonIvy);
   }
   else {
-    alert ('Sounds like you need one');
-    // console.log(vacay);
+    alert ('Try again');
+    // console.log(poisonIvy);
 
   }
 }
-firstYoN();
+fourthYoN();
 
 
-function firstYoN() {
-  let vacay = prompt('Do you like vacations?');
-  vacay = vacay.toLowerCase();
-  console.log(vacay);
+function fifthYoN() {
+  let ready = prompt('Are you ready?');
+  ready = ready.toLowerCase();
+  console.log(ready);
 
-  if (vacay === 'yes') {
-    alert('They are the best!');
-  //   console.log(vacay);
+  if (ready === 'yes') {
+    alert("LET'S GO!");
+  //   console.log(ready);
   }
-  else if (vacay === 'no') {
-    alert('Why not?');
-    // console.log(vacay);
+  else if (ready === 'no') {
+    alert('You better get ready');
+    // console.log(ready);
   }
   else {
     alert ('Sounds like you need one');
-    // console.log(vacay);
+    // console.log(ready);
 
   }
 }
-firstYoN();
+fifthYoN();
