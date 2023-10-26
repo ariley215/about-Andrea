@@ -1,6 +1,6 @@
 'use strict';
 
-function nameIs(){
+function nameIs() {
   const usersName = prompt('Who are you?');
 
   return usersName;
@@ -21,14 +21,14 @@ function firstYoN() {
 
   if (vacay === 'yes') {
     alert('They are the best!');
-  //   console.log(vacay);
+    //   console.log(vacay);
   }
   else if (vacay === 'no') {
     alert('Why not?');
     // console.log(vacay);
   }
   else {
-    alert ('Sounds like you need one');
+    alert('Sounds like you need one');
     // console.log(vacay);
 
   }
@@ -43,14 +43,14 @@ function secondYoN() {
 
   if (color === 'yes') {
     alert('Its my favorite!');
-  //   console.log(color);
+    //   console.log(color);
   }
   else if (color === 'no') {
     alert('You probably like blue');
     // console.log(color);
   }
   else {
-    alert ('I like that one too');
+    alert('I like that one too');
     // console.log(color);
 
   }
@@ -65,14 +65,14 @@ function thirdYoN() {
 
   if (water === 'yes') {
     alert('Glad you are paying attention');
-  //   console.log(water);
+    //   console.log(water);
   }
   else if (water === 'no') {
     alert('hmmmm... not so sure about that one.');
     // console.log(water);
   }
   else {
-    alert ('You must be thinking of something else');
+    alert('You must be thinking of something else');
     // console.log(water);
 
   }
@@ -87,14 +87,14 @@ function fourthYoN() {
 
   if (poisonIvy === 'yes') {
     alert('That must have sucked!');
-  //   console.log(poisonIvy);
-  }      
+    //   console.log(poisonIvy);
+  }
   else if (poisonIvy === 'no') {
     alert('Same, we are so lucky');
     // console.log(poisonIvy);
   }
   else {
-    alert ('Try again');
+    alert('Try again');
     // console.log(poisonIvy);
 
   }
@@ -109,14 +109,14 @@ function fifthYoN() {
 
   if (ready === 'yes') {
     alert("LET'S GO!");
-  //   console.log(ready);
+    //   console.log(ready);
   }
   else if (ready === 'no') {
     alert('You better get ready');
     // console.log(ready);
   }
   else {
-    alert ('Ready is not your middle name');
+    alert('Ready is not your middle name');
     // console.log(ready);
 
   }
@@ -126,20 +126,21 @@ fifthYoN();
 
 
 
-for(let x = 1; x < 5; x++) {
+for (let x = 1; x < 5; x++) {
   let favMovie = prompt('How many times have I seen the Princess Bride');
   favMovie = parseInt(favMovie);
   if (favMovie < 100)
-    alert ('Too low.');
+    alert('Too low.');
   else if (favMovie > 100)
-    alert ('Too high.');
+    alert('Too high.');
   else if (favMovie === 100)
-    alert ('Inconceivable!');
+    alert('Inconceivable!');
   else {
-    alert ('Try again');
+    alert('Try again');
   }
 
 }
+alert('So close! but the answer is 100');
 
 const pastaShapes = [];
 pastaShapes.push('farfelle', 'penne', 'rigatoni', 'tortellini', 'cavatappi');
@@ -151,15 +152,20 @@ favPasta = favPasta.toLowerCase();
 let found = false;
 
 for (let a = 0; a < pastaShapes.length; a++) {
-  if (favPasta === pastaShapes[a]){
+  if (favPasta === pastaShapes[a]) {
     alert('You know what they say about great minds...');
     found = true;
     break;
   }
-}
-if (!found) {
-  alert('Guess not :(');
 
-}
- 
+  if (!found) {
+    alert('Guess not :(');
 
+  
+  }
+}
+
+// // function doAnything() {
+// //   return "I will do this thing " + the Thing";
+
+// }
