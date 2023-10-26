@@ -132,7 +132,7 @@ for(let x = 1; x < 5; x++) {
   if (favMovie < 100)
     alert ('Too low.');
   else if (favMovie > 100)
-    alert ('Too low.');
+    alert ('Too high.');
   else if (favMovie === 100)
     alert ('Inconceivable!');
   else {
@@ -142,24 +142,24 @@ for(let x = 1; x < 5; x++) {
 }
 
 const pastaShapes = [];
-pastaShapes.push('farfelle', 'penne', 'rigatoni', 'tortellini', 'cavatappi')
-  console.log(pastaShapes)
+pastaShapes.push('farfelle', 'penne', 'rigatoni', 'tortellini', 'cavatappi');
+console.log(pastaShapes);
 
-let favPasta = prompt('Do we like the same types of pasta?'){
-  favePasta = favePasta.toLowerCase();
-  
-  let a = 1;
-  while(true) {
-    if (favePasta == pastaShapes)
-    alert('You know what they say about great minds...')
-    else if (favePasta )
+let favPasta = prompt('Do we like the same types of pasta?');
+favPasta = favPasta.toLowerCase();
 
+let found = false;
 
+for (let a = 0; a < pastaShapes.length; a++) {
+  if (favPasta === pastaShapes[a]){
+    alert('You know what they say about great minds...');
+    found = true;
+    break;
   }
+}
+if (!found) {
+  alert('Guess not :(');
 
-  }
+}
+ 
 
-
-
-  // if( dogs.includes( guess ) ) {
-  //   alert("Right!");
