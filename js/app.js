@@ -83,12 +83,12 @@ thirdYoN();
 function fourthYoN() {
   let poisonIvy = prompt('Have you ever gotten poison ivy?');
   poisonIvy = poisonIvy.toLowerCase();
-  console.log(poisonIv);
+  console.log(poisonIvy);
 
   if (poisonIvy === 'yes') {
     alert('That must have sucked!');
   //   console.log(poisonIvy);
-  }
+  }      
   else if (poisonIvy === 'no') {
     alert('Same, we are so lucky');
     // console.log(poisonIvy);
@@ -116,9 +116,39 @@ function fifthYoN() {
     // console.log(ready);
   }
   else {
-    alert ('Sounds like you need one');
+    alert ('Ready is not your middle name');
     // console.log(ready);
 
   }
 }
 fifthYoN();
+
+
+
+
+for(let x = 1; x < 5; x++) {
+  let favMovie = prompt('How many times have I seen the Princess Bride');
+  favMovie = parseInt(favMovie);
+  if (favMovie < 100)
+    alert ('Too low.');
+  else if (favMovie > 100)
+    alert ('Too low.');
+  else if (favMovie === 100)
+    alert ('Inconceivable!');
+  else {
+    alert ('Try again');
+  }
+
+}
+
+const pastaShapes = [];
+pastaShapes.push('farfelle', 'penne', 'rigatoni', 'tortellini', 'cavatappi')
+  console.log(pastaShapes)
+
+let favPasta = prompt('Do we like the same types of pasta?'){
+  favePasta = favePasta.toLowerCase();
+  
+}
+
+let a = 1;
+while(a)
