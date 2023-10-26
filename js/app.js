@@ -148,7 +148,18 @@ pastaShapes.push('farfelle', 'penne', 'rigatoni', 'tortellini', 'cavatappi')
 let favPasta = prompt('Do we like the same types of pasta?'){
   favePasta = favePasta.toLowerCase();
   
-}
+  let a = 1;
+  while(true) {
+    if (favePasta == pastaShapes)
+    alert('You know what they say about great minds...')
+    else if (favePasta )
 
-let a = 1;
-while(a)
+
+  }
+
+  }
+
+
+
+  // if( dogs.includes( guess ) ) {
+  //   alert("Right!");
