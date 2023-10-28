@@ -1,5 +1,7 @@
 # about-Andrea
 
+![Lighthouse Score for Lab 3](<Screenshot 2023-10-28 at 7.00.57 PM.png>)
+
 This file was refactored by Gabriel and Andrea.
 
 Put all our loops into functions.
